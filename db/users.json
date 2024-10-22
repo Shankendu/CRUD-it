@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "d843",
+      "name": "Shankendu Kunti",
+      "email": "shankenduk@gmail.com",
+      "phone": "8828198696"
+    },
+    {
+      "id": "601e",
+      "name": "Sushmita Kunti",
+      "email": "sushmitakunti@gmail.com",
+      "phone": "9594526483"
+    },
+    {
+      "id": "3b4e",
+      "name": "Christine Fernandes",
+      "email": "christinefernandes@gmail.com",
+      "phone": "9930451990"
+    }
+  ]
+}

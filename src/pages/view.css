@@ -1,0 +1,99 @@
+.container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 400px;
+  width: 250px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px #000000a0;
+  
+}
+.upper {
+  height: 200px;
+  width: 250px;
+  background-color: #629584;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 30px 30px 0 #629584, -30px 30px 0 white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lower {
+  height: 200px;
+  width: 250px;
+  background-color: white;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgDiv {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar {
+  height: 136px;
+  width: 136px;
+  border-radius: 50%;
+  background-image: url(../assets/user.png);
+  background-size: contain;
+  background-position: center;
+}
+.descDiv {
+  height: inherit;
+  width: inherit;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading{
+    margin: 0;
+    color: #629584d8;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+.para{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.579);
+    font-size: 13px;
+}
+.para-head{
+    font-size: 15px;
+    font-weight: 600;
+    color:  rgba(0, 0, 0, 0.579);
+}
+.line{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 1px;
+    background: radial-gradient(black, rgba(0, 0, 0, 0.282), transparent);
+}
+/* desc_div.style.height = "inherit"
+desc_div.style.width = "inherit"
+desc_div.style.padding = "0 20px"
+desc_div.style.display ="flex";
+desc_div.style.flexDirection ="column";
+desc_div.style.justifyContent ="center";
+desc_div.style.alignItems ="center";' */

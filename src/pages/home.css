@@ -1,0 +1,80 @@
+#home{
+    width: 100%;
+    padding-bottom: 50px;
+}
+#home article{
+    width: 80%;
+    margin: 0 auto;
+}
+#home article h2{
+    text-align: center;
+    font-size: 32px;
+    color: #387478;
+    margin-bottom: 25px;
+    width: 100%;
+    background-color: #62958491;
+    border: 1px solid #243642;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px 0;
+}
+table{
+    width: 100%;
+    border-spacing: 40px 10px;
+    margin: 0 auto;
+}
+
+table thead tr th{
+    padding: 15px;
+    background-color: #243642;
+    color: #629584;
+    border-radius: 10px; 
+}
+table tbody tr .create-btn{
+    background-color: transparent;
+    transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 25ms; 
+}
+table tbody tr .create-btn:hover{
+    background-color: transparent;
+}
+table tbody tr td{
+    padding: 10px;
+    text-align: center;
+    background-color: #3874783c;
+    border-radius: 10px;
+    transition: all 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 25ms; 
+}
+table tbody tr td:hover{
+    background-color: #3874785b;
+}
+ 
+.btn-view{
+    background-color: #6295849f;
+    border: 1px solid #243642;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #243642;
+    border-radius: 5px;
+    transition: 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 25ms;
+}
+.btn-view:hover{
+    background-color: #629584f0;
+}
+.action-column{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.edit , .delete{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    padding: 5px 0 5px 10px; 
+    cursor: pointer;
+    color: #243642;
+    text-decoration: none;
+}
+.edit > h3 , .delete > h3{
+    font-size: 16px;
+    font-weight: 500;
+}

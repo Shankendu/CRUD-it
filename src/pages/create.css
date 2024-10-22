@@ -1,0 +1,68 @@
+#formBlock {
+  width: 100%;
+  height: 80vh;
+  color: #243642;;
+}
+#formBlock article {
+  width: 70%;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#formBlock article h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #387478;
+  margin-bottom: 25px;
+  background-color:#62958491;
+  padding: 10px 65px;
+  border-radius: 10px;
+  border: 1px solid #243642;
+}
+
+form {
+  width: 350px;
+  height: 400px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  background-color: #62958491;
+  border: 1px solid #243642;
+  border-radius: 10px;
+}
+form .formgroup label {
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+form .formgroup input[type="text"],
+form .formgroup input[type="email"],
+form .formgroup input[type="tel"] {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #243642;
+  outline: none;
+  border-radius: 6px;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+}
+form .formgroup input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #243642;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+form .formgroup input[type="submit"]:hover{
+    background-color: #243642ed;
+}
